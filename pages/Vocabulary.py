@@ -6,7 +6,7 @@ import random
 
 st.write("🌱 Vocabulary learning")
 
-tab1, tab2, tab3, tap4= st.tabs(["❄️ 1. Lesson: Word list", "❄️ 2. Activity: Listen to the word", "❄️ 3. Spelling practice", "❄️ 4. TBA"])
+tab1, tab2, tab3 = st.tabs(["❄️ 1. Lesson: Word list", "❄️ 2. Activity: Listen to the word", "❄️ 3. Spelling practice"])
 
 ######### TAB 1
 
@@ -98,8 +98,3 @@ with tab3:
         else:
             st.error("❌ Try again.")
 
-
-######### TAB 4
-
-with tab4:
-    st.caption("dfkdfd")
